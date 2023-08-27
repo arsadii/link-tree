@@ -49,13 +49,13 @@ body {
   color: white;
 }
 
-.sosmed i:not(:last-child) {
+.sosmed .sosmed-link:not(:last-child) {
   margin-right: 1rem;
 }
 
 ul {
   width: 80%;
-  max-width: 24rem;
+  max-width: 40rem;
 }
 
 li {
@@ -100,6 +100,9 @@ a {
   justify-content: center;
   align-items: center;
   color: white;
+}
+.link-text {
+  text-align: center;
 }
 
 .link-action i {
