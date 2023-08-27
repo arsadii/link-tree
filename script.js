@@ -41,3 +41,9 @@ linkActions.forEach((action) => {
     }, 3000);
   });
 });
+
+document.addEventListener("scroll", (e) => {
+  document.querySelector(".bg-text").style.transform = `translateX(${
+    window.scrollY / 2
+  }px)`;
+});
